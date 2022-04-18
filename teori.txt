@@ -1,0 +1,6 @@
+﻿    • Algoritme Dijkstra, (sesuai penemunya  Edsger Dijkstra), adalah sebuah algoritma yang dipakai dalam memecahkan permasalahan jarak terpendek (shortest path problem) untuk sebuah graf berarah (directed graph).
+      
+    • Representasi Matriks Keterhubungan Langsung (Adjacency Matrix)
+      Suatu matriks digunakan untuk menyatakan adjacency set setiap verteks dalam baris-barisnya. Nomor baris menyatakan nomor verteks adjacency berasal dan nomor kolom menunjukkan nomor verteks kemana arah adjacency. Elemen matriks [x, y] berharga 1 bila terdapat sisi dari x ke y dan berharga 0 bila tidak ada.
+      Harga biner ini memungkinkan penggunaan 1 bit untuk setiap sel matriks. Misalnya pada suatu graph dengan jumlah verteks 48 dapat digunakan 6 byte perbaris (semua 38 baris, jadi diperlukan 48 x 6 byte). Untuk mengetahui harga elemen matrilks maka diperlukan operasi shift-right serts operasi boolean and. Misalnya adjacency dari verteks 15 ke verteks 27 pada contoh 48 verteks di atas maka byte ke ë 27/8û dari baris ke 15 di-shift-right sebanyak (27 mod 8) posisi lalu di-and-kan dengan bilangan 1. Bila hasilnya 1 maka 15 adjacent ke 27, bila 0 maka tidak
+
